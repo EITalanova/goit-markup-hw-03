@@ -23,8 +23,6 @@ ul {
 
 img {
   display: block;
-  /* max-width: 100%;
-  height: auto; */
 }
 
 .container-styles {
@@ -44,13 +42,13 @@ img {
 body {
   color: var(--text-main);
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .header_container {
   display: flex;
   align-items: center;
   width: 1200px;
-
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -58,7 +56,7 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -79,7 +77,6 @@ body {
 
 .logo_theme-dark {
   display: block;
-
   margin-bottom: 20px;
   margin-right: 0;
   padding: 0;
@@ -101,12 +98,10 @@ body {
 
 .menu_list_link {
   display: block;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -146,7 +141,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -161,28 +155,28 @@ body {
 }
 
 .hero_title {
+  margin: 0 0 30px 0;
+
+  color: var(--text-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--text-white);
-
-  margin: 0 0 30px 0;
 }
 
 .hero_button {
+  padding: 10px 32px;
+
+  color: var(--text-white);
+  background-color: var(--activity-blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--text-white);
-  background-color: var(--activity-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-
-  padding: 10px 32px;
 }
 
 .about-us {
@@ -190,8 +184,6 @@ body {
   padding-top: 94px;
   margin: 0 auto;
   width: 1200px;
-
-  border: 1px solid orchid;
 }
 
 .about-us_title {
@@ -210,11 +202,6 @@ body {
 
 .about-us-container {
   display: flex;
-
-  /* margin: 0 auto; */
-  /* width: 1200px; */
-
-  border: 1px solid blueviolet;
 }
 
 .table {
@@ -226,38 +213,37 @@ body {
 }
 
 .table_hader {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
 }
 
 .table_text {
+  color: var(--text-grey);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-grey);
 }
 
 .what-we-do {
   width: 1200px;
   margin: 0 auto;
-
-  border: 1px solid orchid;
 }
 
 .what-we-do_title {
+  text-align: center;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
-  text-align: center;
 }
 
 .what-we-do_lists {
@@ -277,23 +263,20 @@ body {
   width: 1200px;
   padding-top: 94px;
   margin: 0 auto;
-
-  border: 1px solid orchid;
 }
 
 .team {
   background-color: var(--back-lgrey);
-  border: 1px solid orchid;
 }
 
 .team_title {
+  text-align: center;
+  margin: 0 0 50px 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
-  text-align: center;
-  margin: 0 0 50px 0;
 }
 
 .team_lists {
@@ -303,7 +286,6 @@ body {
 
 .team_list {
   background-color: var(--text-white);
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -314,30 +296,29 @@ body {
 }
 
 .team_list-title {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 0 10px 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  text-align: center;
-  padding-top: 30px;
-  margin: 0 0 10px 0;
 }
 
 .team_list-text {
+  text-align: center;
+  padding-bottom: 30px;
+
+  color: var(--text-grey);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--text-grey);
-
-  text-align: center;
-  padding-bottom: 30px;
 }
 
 .footer {
   background-color: var(--back-grey);
-  font-style: inherit;
 }
 
 .footer_container {
@@ -355,22 +336,22 @@ body {
 }
 
 .footer_address {
+  margin: 0 0 9px 0;
+
+  color: var(--text-white);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-white);
-
-  margin: 0 0 9px 0;
 }
 
 .footer_list_contact {
+  color: rgba(255, 255, 255, 0.6);
   font-style: inherit;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio {
@@ -386,7 +367,6 @@ body {
 .filters {
   display: flex;
   justify-content: center;
-
   margin: 0 0 50px 0;
   padding: 0;
 }
@@ -398,13 +378,13 @@ body {
 .filter-botton {
   padding: 6px 22px;
 
+  background-color: var(--back-lgrey);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
   border-radius: 4px;
   border: none;
-  background-color: var(--back-lgrey);
 }
 
 .filter-botton:hover,
@@ -436,12 +416,11 @@ body {
 
 .project-text {
   padding: 20px 24px;
-  border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .project-link {
-  text-decoration: inherit;
   color: inherit;
+  text-decoration: inherit;
 }
 
 .project-title {
@@ -457,9 +436,9 @@ body {
 .project-description {
   padding: 0;
 
+  color: var(--text-grey);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--text-grey);
 }
