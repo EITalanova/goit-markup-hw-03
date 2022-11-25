@@ -148,12 +148,18 @@ body {
 }
 
 .hero {
-  min-width: 1200px;
-  text-align: center;
+  max-width: 1600px;
   padding: 200px 0;
 
   background-color: var(--back-grey);
 }
+
+.hero-container {
+width: 1200px;
+text-align: center;
+margin: 0 auto;
+}
+
 
 .hero_title {
   margin: 0 0 30px 0;
