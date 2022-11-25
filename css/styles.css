@@ -148,6 +148,7 @@ body {
 }
 
 .hero {
+  min-width: 1200px;
   text-align: center;
   padding: 200px 0;
 
